@@ -1,0 +1,25 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'Midflite-C'; 
+  src: url('../public/midflite-c.ttf') format('truetype'); 
+}
+@layer base {
+  body {
+    font-family: 'Midflite-C', sans-serif;
+    background-image: url('../public/fon_first.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Опционально, чтобы фон был зафиксирован */
+    background-color: #E3D4C1; /* Фоновый цвет, который будет виден при загрузке или если изображение не загрузится */
+  }
+}
+.body-with-custom-cursor {
+  cursor:move ; 
+}
+
+
+/*#E3D4C1*/
